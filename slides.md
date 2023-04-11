@@ -82,14 +82,16 @@ export function greet(name: string, yearOfBirth: number): string
 
 ---
 
-### Toute entrée doit être validée
+### Toute entrée doit être "validée"
+
+_Et toute sortie documentée_
 
 ---
 
 ### Les pièges de la validation
 
 - Données additionnelles malicieuses<br/>_(prototype poisoning)_
-- Manque de cohésion avec le typage
+- Manque de cohésion avec le typage TypeScript
 
 ---
 
@@ -140,8 +142,8 @@ type User = {
 
 ### Ecosystème
 
+- tRPC _(du même auteur)_
 - Zod-to-JSON-schema
-- tRPC
 - Et plus: https://zod.dev/?id=ecosystem
 
 ---

@@ -1,11 +1,15 @@
 {
+  "name": "parse-dont-validate-zod",
+  "private": true,
+  "description": "Slides & support code for Human Talks 2023-04-11",
+  "license": "MIT",
   "files": [
     "dist/"
   ],
   "type": "module",
   "tsup": {
     "entry": [
-      "src/01-prototype-injection.ts"
+      "src/*.ts"
     ],
     "treeshake": true
   },
