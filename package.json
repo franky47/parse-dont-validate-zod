@@ -1,0 +1,32 @@
+{
+  "files": [
+    "dist/"
+  ],
+  "type": "module",
+  "tsup": {
+    "entry": [
+      "src/01-prototype-injection.ts"
+    ],
+    "treeshake": true
+  },
+  "scripts": {
+    "dev": "tsup --format esm --watch",
+    "build": "tsup --clean --format esm --dts",
+    "typecheck": "tsc"
+  },
+  "dependencies": {
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.11",
+    "tsup": "^6.7.0",
+    "typescript": "^5.0.4"
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "semi": false,
+    "singleQuote": true,
+    "tabWidth": 2,
+    "useTabs": false
+  }
+}
