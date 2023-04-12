@@ -15,7 +15,7 @@
   },
   "scripts": {
     "dev": "tsup --format esm --watch",
-    "build": "tsup --clean --format esm --dts",
+    "build": "tsup --clean --format esm",
     "typecheck": "tsc"
   },
   "dependencies": {
